@@ -18,7 +18,7 @@ if api_key:
     client = OpenAI(api_key=api_key)
 
     # Dropdown for selecting the model
-    model_choice = st.selectbox("Select the model", ["gpt-4o", "gpt-4o-mini"])
+    model_choice = st.selectbox("Select the model", ["gpt-4o", "ft:gpt-4o-2024-08-06:personal:fic-lestari-bahasa-01:ANtvR3xr", "gpt-4o-mini"])
 
     # Textbox for updating the prompt
     prompt = st.text_input("Enter the prompt for image description", "What’s in this image?")
