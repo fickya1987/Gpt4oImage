@@ -19,7 +19,7 @@ def get_image_description(client, uploaded_file, prompt, model_choice):
                 ],
             }
         ],
-        max_tokens=300,
+        max_tokens=1000,
     )
 
     # Extract and return the description
